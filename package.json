@@ -1,0 +1,29 @@
+{
+  "name": "vue-js-node-js-express-mysql",
+  "version": "1.0.0",
+  "description": "Integreate Vue with Express, Serve Vue app with Express on same Server/Port",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "nodejs",
+    "express",
+    "sequelize",
+    "rest",
+    "api"
+  ],
+  "author": "Arvoid00",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
